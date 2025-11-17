@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "twixt.h"  
+#include "game.h"  
 int main() {
     struct gamestate game;
     initializegame(&game);
