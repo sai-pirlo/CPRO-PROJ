@@ -52,7 +52,7 @@ int main() {
 
         
         if (game.board[rowindex][colindex] != dot_none) {
-            printf("That spot is already taken by a peg.\n");
+            printf("That spot is already taken.\n");
             continue;
         }
 
@@ -93,8 +93,7 @@ void initializegame(struct gamestate *game) {
     printf("========================\n");
     printf("   Welcome to Twixt!    \n");
     printf("========================\n");
-    printf("Red's borders are Rows 1 and 24.\n");
-    printf("Black's borders are Cols 1 and 24.\n");
+    printf("\n");
     printf(" Red Player starts.\n");
 }
 
