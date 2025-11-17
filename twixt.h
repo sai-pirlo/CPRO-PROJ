@@ -55,8 +55,3 @@ void altturn(struct gamestate *game){
 
 };
 
-
-void clearinputbuffer(void){
-
-};
-
