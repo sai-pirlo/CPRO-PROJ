@@ -22,12 +22,10 @@ int main() {
         
         if (scanf("%d %d", &row, &col) != 2) {
             printf("Invalid input. Please enter two numbers (e.g., '10 12').\n");
-            clearinputbuffer(); 
             continue;           
         }
         
     
-        clearinputbuffer(); 
 
        
         int rowindex = row - 1;
@@ -139,10 +137,3 @@ void altturn(struct gamestate *game) {
     game->currentplayer = (game->currentplayer == player_red) ? player_black : player_red;
 }
 
-
-void clearinputbuffer(void) {
-    int c;
-    while ((c = getchar()) != '\n' ) {
-        
-    }
-}
